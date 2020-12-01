@@ -87,8 +87,7 @@ module.exports = function(grunt) {
     connect: {
       dev : {
         options: {
-          port: 8080,
-          open:'http://localhost:8080/dev.html'
+          port: process.env.PORT || 8080,
         }
       },
       prod : {
@@ -113,7 +112,7 @@ module.exports = function(grunt) {
     preprocess : {
         dev : {
             src : 'tpl.html',
-            dest : 'dev.html',
+            dest : 'index.html',
             options : {
               context : {
                   name : '<%= pkg.name %>',
