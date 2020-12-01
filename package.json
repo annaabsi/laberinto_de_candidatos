@@ -32,5 +32,9 @@
     "grunt-env": "~1.0.1",
     "grunt-preprocess": "~5.1.0",
     "grunt-open": "~0.2.4"
+  },
+  "scripts": {
+    "build": "grunt uglify",
+    "start": "node server.js"
   }
 }
