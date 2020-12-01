@@ -61,7 +61,7 @@ var candi = []
  
         queue()
           .defer(d3.csv, BUILD+'data/candidatos.csv?v=16')
-          .defer(d3.csv, BUILD+'https://docs.google.com/spreadsheets/d/e/2PACX-1vQpYhi6PSS8WUpaiKFXxHsNZ8w-6MJmjriwWKjLCJPD7GbSD9dtlUEL2aJ576DiXOuNybY03l2aAUfP/pub?gid=0&single=true&output=csv')
+          .defer(d3.csv, BUILD+'https://docs.google.com/spreadsheets/d/e/2PACX-1vTDZ0UVUY9cl2IptqV5CwYKk1vO-c1chPdMS4KP35bKUkFLyyxjTKtaWEd_e471QumJtGZVR0PRycOH/pub?gid=0&single=true&output=csv')
           .defer(d3.csv, BUILD+'data/partidos.csv?v=16')
           .awaitAll(App.filesLoaded);
  
