@@ -35,6 +35,6 @@
   },
   "scripts": {
     "build": "grunt uglify",
-    "start": "node server.js"
+    "start": "grunt server"
   }
 }
