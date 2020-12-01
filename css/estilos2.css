@@ -1,0 +1,868 @@
+body {font-family:'Arial', sans-serif;font-size:12px;color: #333333;}
+a {color:#335577;text-decoration:none;}
+a:visited {color:#335577;}
+a:hover {color:#335577;text-decoration:underline;}
+header {width:100%; height:150px;}
+
+header .interna .encabezado h1 {float:left;font:normal 35px/35px 'TheSansSemiLight', 'Arial';padding:0px 0px 0 8px;color:#1DA3D6;width:100%;height:38px;overflow:hidden; margin:8px;}
+header .interna .encabezado h1 a{color:#1DA3D6;}
+header .interna h1 a:hover {text-decoration: none;color: #2b90b7;}
+header section.cabezal {width:100%; max-width:988px; height:94px; margin:auto;border-left:solid 1px #DADADA;border-right:solid 1px #DADADA;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/fdo-cabezal.png") repeat-x 0 0  transparent; font-size:12px;position:relative;color:#333;}
+header .interna .logo {width:130px;float:left;text-align:right;color:#666;margin:20px 0 0 20px;}
+header .interna .logoConSeccion {width:40%; max-width:600px;height:94px;float:left;}
+header .interna .logo a.ln {margin-bottom:2px;display:block;text-decoration:none;width:130px;height:20px;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") 0 0 no-repeat;}
+header .cabezal .buscador {width:45%; float: right;margin-top: 26px;margin-right: 40px; position: relative;}
+header .cabezal .buscador ul li.compartir { position: absolute; top:10px; right:0px;}
+header li.compartir a.facebook {float:left;text-decoration:none;display:block;width:24px;height:24px;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat 0 -36px transparent;margin-right:10px;}
+header li.compartir a.twitter {float:left;text-decoration:none;display:block;width:24px;height:24px;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat -34px -36px transparent;margin-right:10px;}
+header li.compartir a.google {float:left;text-decoration:none;display:block;width:24px;height:24px;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat -67px -36px transparent;}
+header nav#troncal ul.navSecciones {border-top: 1px solid #DADADA;margin-left:20px;padding-top:3px;}   
+     
+#troncal {max-width:988px; min-height:26px;margin:0px auto; padding-bottom:10px; z-index:200;background:#F3F3F3;border-left:1px solid #DADADA;border-right:1px solid #DADADA;position:relative;}
+#troncal ul li a:hover {color:#2b90b7;text-decoration:none;}
+#troncal li.principalesTop {background: url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat right -68px transparent;height:20px;text-align:center;float:left;font:normal 14px/30px 'TheSansSemi', 'Arial';}
+#troncal li .accesoSeccion {color:#335577;padding:0 20px;display:block; }
+#troncal li .accesoSeccion.ultimas {padding-left:2px;}
+#troncal li.servicios .accesoSeccion {background-position:92px -67px;}
+#troncal li.edicion-impresa .accesoSeccion {background-position:136px -67px;}
+#troncal li.guia-salidas {background: none;}
+#troncal li.guia-salidas .accesoSeccion {color:#278c8c;background: url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat -100px -92px;padding-left:38px;padding-right:25px;}
+ 
+header .cierre {line-height:0px;height:5px;background-color:#32A9D3;width:100%; max-width:990px; margin:auto;}       
+
+/* -------------------- */
+
+div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha{
+
+   overflow: hidden;
+   position: relative;
+
+   background: #fff;
+   /* Skew */
+   /*-webkit-transform: skew(-15deg);
+   -moz-transform: skew(-15deg); 
+   -o-transform: skew(-15deg);
+   transform: skew(-15deg);*/
+   /*border-right:2px solid #e7e7e7;
+   width: 10.8%;
+   height: 115px;*/
+   float:left;
+   cursor:pointer;
+   width: 74px;
+   height: 74px;
+   border-radius: 50px;
+   margin: 9px;
+}
+
+/*div.contenedor div.contenidos div.slider-container div.candidatos div.slide div#ficha-1{
+   border-left:0px;
+}
+
+div.contenedor div.contenidos div.slider-container div.candidatos div.slide div#ficha-9{
+   border-right:0px;
+}*/
+
+div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha img{
+   width:75px;
+   position:absolute;
+   left:0;
+	background-repeat: no-repeat;
+   /*-webkit-transform: skew(+15deg);
+   -moz-transform: skew(+15deg); 
+   -o-transform: skew(+15deg);
+   transform: skew(+15deg);*/
+   opacity: 0.5;
+}
+
+div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha img:hover{
+   opacity: 1;
+}
+
+div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.selected img{
+   opacity: 1;
+}
+
+
+div.contenedor div.contenidos div.cajaFixed{
+   width: 95%;
+   max-width: 940px;
+   height: 30px;
+   padding: 10px;
+   background-color:#fff;
+   position:fixed; 
+   top:0px;
+   z-index: 900;
+   display: none;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border:1px solid #dadada;
+   box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.19);
+}
+
+div.contenedor div.contenidos div.cajaFixed div.candi{
+   width: 23.5%;
+   min-height: 12px;
+   color:#fff;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 3px;
+   font-size: 13px;
+   font-weight: bold;
+   text-align: center;
+   float:left;
+   margin: 0px 0.5%;
+   padding: 10px 0px;
+   border:1px solid #dadada;
+}
+
+
+
+div.contenedor div.contenidos div.tarjetas-container{
+   width:100%;
+   height:300px;
+   margin-bottom:-20px;
+}
+
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta{
+   width:18%;
+   height:280px;
+   float:left;
+   margin-right: 20px;
+   position: relative;
+   -webkit-perspective: 800px;
+      -moz-perspective: 800px;
+         -o-perspective: 800px;
+            perspective: 800px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta .cargada{background: #fff}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card{
+   width:100%;
+   height:250px;
+   border:1px solid #ddd;
+   position: absolute;
+   border-radius:5px;
+   background: #f5f5f5;
+   -webkit-transition: -webkit-transform 0.2s;
+         -moz-transition: -moz-transform 0.2s;
+           -o-transition: -o-transform 0.2s;
+              transition: transform 0.2s;
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+
+   
+   display: none;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.sincard{
+   width:100%;
+   height:250px;
+   border:1px solid #ddd;
+   position: absolute;
+   border-radius:5px;
+   background: #f5f5f5;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.sincard div.seleccione{
+   /*width: 78%;
+   text-align: center;
+   margin:40px auto;
+   color:#7B7B7B;
+   line-height: 1.4;
+   top: 29%;
+   left: 6%;
+   position: absolute;
+   border: 1px solid #E2E2E2;
+   border-radius: 4px;
+   padding: 9px 10px;*/
+
+   text-align: center;
+   color: #7B7B7B;
+   line-height: 1.4;
+   padding: 100px 20px;
+
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.sincard div.mas{
+   width: 90px;
+   height: 90px;
+   background-image:url("../img/tarjeta-sprite.png"); 
+   background-position: -20px -115px;
+   position: absolute;
+   top:40%;
+   left: 30%;
+   display:none;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.flipped  {
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+     
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card{
+   overflow: hidden;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure  {
+   width:100%;
+   height:315px;
+   border-radius:5px;
+   overflow: hidden;
+   /*-webkit-backface-visibility: hidden !important;
+      -moz-backface-visibility: hidden !important;
+         -o-backface-visibility: hidden !important;
+            backface-visibility: hidden !important;
+   -webkit-transform-style: preserve-3d;*/
+   background-color: #fff;
+   z-index:2000;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente{
+   position: relative;
+   border-radius:5px;
+   overflow: hidden;
+
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card div.vermas,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card div.vermenos{
+   /*
+   padding: 0px 5px;
+   font-size: 23px;
+   background: #335577;
+   border-radius: 3px;
+   border: 1px solid #dadada;
+   color: #fff;
+
+   z-index: 1500;
+   font-weight: bold;*/
+   cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: grey;
+    color: white;
+    border-radius: 19px;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    line-height: 18px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card div.vermenos{
+   background: #E2E2E2;
+   padding: 0px 10px;
+   font-size: 25px;
+   font-weight: bold;
+   color: #335577;
+   padding-bottom: 3px;
+   padding: 0px 8px;
+   font-size: 21px;
+}
+
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure img{
+   /*margin-top: 20px;*/
+   width: 100%;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras{
+   width:100%;
+   height:315px;
+   position: absolute;
+   top:0px;
+   border-radius:5px;
+   background: #f5f5f5;
+   overflow: hidden;
+   /*-webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+*/
+   z-index:2000;
+   display:none;
+}
+
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
+   width: 90%;
+   height: 25px;
+   background-image:url(../img/tarjeta-sprite.png);
+   background-position: -73px -77px;
+   background-repeat:no-repeat;
+   padding-left:25px;
+   line-height: 1.5;
+   margin: 45px 10px;
+   margin-bottom:5px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio{
+   width: 90%;
+   height: 230px;
+   background: #fff;
+   border:1px solid #ccc;
+   margin: 0px 10px;
+   margin-bottom:0px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.profesion,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.web,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.texto{
+   padding: 5px 10px 5px 10px;
+}
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad{
+   margin-top:5px;
+}
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad span,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.profesion  span,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.web span{
+   font-weight:bold;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.texto{
+   width: 85%;
+   height: 130px;
+   line-height: 1.4;
+   overflow: auto;
+   margin: 0px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.nom,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom{
+   /*width: 75%;
+   height: 30px;
+   position: absolute;
+   top:10px;
+   left:10px;
+   color:#21a2de;*/
+   font-size: 19px;
+   font-family:  'TheSans', sans-serif;
+   line-height: 0.9;
+   padding: 10px;
+}
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.nom span.partido,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom span.partido{
+   color:#000;
+   font-size: 13px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.flipoff,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.flipon{
+   width: 60px;
+   height: 58px;
+   position: absolute;
+   top:0px;
+   right:0px;
+   background-image:url("../img/tarjeta-sprite.png"); 
+   background-position: -14px -5px;
+   cursor:pointer;
+   z-index:1500;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.flipon{
+   background-position: -75px -5px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.cerrar,
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.cerrar{
+   /*width: 45px;
+   height: 45px;
+
+   background-image:url("../img/tarjeta-sprite.png");
+   background-position: -20px -55px;
+   cursor:pointer;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   padding: 0px 5px;
+   font-size: 23px;
+   background: #335577;
+   border-radius: 3px;
+   border: 1px solid #dadada;
+   color: #fff;
+
+   z-index: 1500;
+   font-weight: bold;*/
+   cursor:pointer;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background: red;
+   color: white;
+   border-radius: 19px;
+   height: 18px;
+   width: 18px;
+   text-align: center;
+   line-height: 18px;
+}
+
+.nom:before {
+   position: relative;
+   width: 40px;
+   height: 4px;
+   content: "";
+   display: block;
+   bottom: 4px;
+}
+
+.color-red:before {
+   background-color: #B30000;
+}
+
+.color-green:before {
+   background-color: #469E16;
+}
+
+.color-purple:before {
+   background-color: #842182;
+}
+
+.color-orange:before {
+   background-color: #D26C09;
+}
+
+.color-yellow:before {
+   background-color: #FFCC00;
+}
+
+.color-red2{
+   background:#B30000 !important;
+}
+
+.color-green2{
+   background:#469E16 !important;
+}
+
+.color-purple2{
+   background:#842182 !important;
+}
+
+.color-orange2{
+   background:#D26C09 !important;
+}
+
+.color-yellow2{
+   background:#FFCC00 !important;
+}
+
+/* -------------------- */
+footer {width:100%; height:110px; max-width: 960px; margin:auto;border-top:1px solid #dadada; margin-top: 20px}
+footer section#pie {width: 98%; height:110px; margin:auto;}
+footer section#pie ul {width:auto; height:45px;}
+footer section#pie ul li {float:left;padding:15px 0 15px 0;}
+footer section#pie ul li span {color:#9c9c9c;padding:0 5px;}
+
+
+footer .copy {font-size:11px;color:#9D9D9D;width:100%; height:50px;}
+footer .copy b {font-weight:normal;color:#9D9D9D;padding-left:45px;background: url("../img/lanacioncom.png") no-repeat scroll -93px -129px transparent;width:222px;height:22px;display:block;float:left;margin-left:20px;}
+footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
+
+/* ------------------------------ media queries --------------------*/
+/* ------------------------------ media queries --------------------*/
+/* ------------------------------ media queries --------------------*/
+
+@media only screen and (max-width: 900px) {
+   div.contenedor div.contenidos div.cajaFixed{
+      width: 100%;
+      left: 0%;
+   }
+
+   header {height:130px;}
+   header section.cabezal {height:66px;}
+   header section.cabezal .buscador {margin-top: 16px; margin-right: 14px; }
+
+   header .interna h1 a {font-size: 25px;}
+   header .interna .encabezado h1 {padding: 0px 0px 0 8px; margin:0px;}
+   header .interna .logoConSeccion {height:70px;}
+   header .interna .logo {margin:10px 0 0 10px;}
+   header .interna .logo a.ln {background-size: 70%; height:15px}
+
+   header nav#troncal ul.navSecciones {margin-left:5px; height: 35px;}
+   header nav#troncal ul.navSecciones li {width:16%; font-size: 12px; line-height: 1.3; text-align: center; float:left; margin-top: 7px;} 
+   header nav#troncal li .accesoSeccion {padding:0 20px;   }
+   header nav#troncal li#unalinea {line-height: 2;   }
+   header nav#troncal li.guia-salidas .accesoSeccion {width:50%;}
+
+
+
+   /* ///////////////// */
+
+   h2{line-height: 1.5}
+
+   #contenedor {  padding-left: 0px; padding-right: 0px; }
+
+   #contenedor div.bot-candidatos{height: 89px;}
+   #contenedor div.bot-candidatos div.btn{height:90px; border-right:3px solid #e7e7e7; }
+   #contenedor div.bot-candidatos div.btn div.foto{width: 135%; position: absolute; top: 0px; left: -5px; background-size: 100%}
+
+   div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha{
+      width: 10.7%;
+   }
+
+   div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha img{
+      top: 10px;
+      left:-20px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta{
+      width:24%;
+      margin-right: 5px;
+
+   }
+
+      div.contenedor div.contenidos div.cajaFixed{
+      width: 97%;
+   }
+
+  
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.sincard,
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card,
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure{
+       height: 295px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio{
+      width: 88%;
+      height: 196px;
+      overflow: hidden;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.sincard div.seleccione{
+      width: 73%;
+      top: 25%;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure img{
+      width: 120%;
+      position:absolute;
+      left:-5%;
+      bottom: -65px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras{
+      height: 295px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.nom, 
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom{
+      width: 65%;
+      z-index:1500;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.sincard div.mas{
+      left: 22%;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad span,
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.profesion  span,
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.web span{
+     display: none;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
+      margin: 55px 10px;
+      margin-bottom: 10px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio{
+      height: 195px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.texto{
+      height: 115px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.cerrar,
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.cerrar{
+      z-index:2000;
+   }
+
+   footer {width:100%; height:110px; margin:auto;border-top:1px solid #dadada;}
+
+
+   
+} /* fin 780 */
+
+@media only screen and (max-width: 750px) {
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure img {
+      bottom: -35px;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+
+   header {height:110px;}
+   header section.cabezal {height:44px;}
+   header section.cabezal .buscador { display: none }
+
+   header .interna .encabezado{position: absolute; width: 100%; top:0px; text-align: left }
+   header .interna .encabezado h1 { padding: 5px 0px 0 0px; line-height: 0.7; }
+   header .interna .encabezado h1 a {margin:5px; font-size: 20px;  }
+   header .interna .logoConSeccion {width:100%; height:35px;}
+   header .interna .logo {width: 90px; margin:10px 0 0 10px; float: right;}
+   header .interna .logo a.ln {width: 120px; background-size: 70%; height:20px; }
+
+   header nav#troncal ul.navSecciones li {width:20%;}
+   header nav#troncal li .accesoSeccion {padding:0 7px;   }
+   header nav#troncal li.guia-salidas {display:none;}
+
+   footer section#pie {
+      width: 100%;
+      margin: auto;
+   }
+
+   footer section#pie ul{margin-bottom: 20px;}
+   footer section#pie ul li {padding: 15px 0 0px 0;}
+   footer .copy {width:100%; text-align: center; }
+   footer .copy span.textoCopy, footer .copy b{width: 100%; }
+   footer .copy b{text-align: center; padding-left: 0px;}
+
+   /* ////////// */
+
+   #contenedor div#nom-especial div.nom{height:auto; margin-bottom: 5px;}
+   #contenedor div#nom-especial div.bajada{margin-bottom: 5px;}
+
+   #contenedor {padding-left: 5px; padding-right: 5px;}
+
+   
+
+   /* FICHAS */
+
+   div.contenedor div.contenidos div.slider-container{
+      height: 217px;
+   }
+
+   div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha{
+      width: 18.9%;
+      height: 100px;
+      border-bottom: 1px solid #e7e7e7;
+      -webkit-transform: skew(0deg); 
+      -moz-transform: skew(0deg); 
+      -o-transform: skew(0deg);
+      transform: skew(0deg);
+   }
+
+   div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha img{
+      top: -10px;
+      -webkit-transform: skew(0deg); 
+      -moz-transform: skew(0deg); 
+      -o-transform: skew(0deg);
+      transform: skew(0deg);
+   }
+
+   /*div.contenedor div.contenidos div.slider-container div.candidatos div.slide div#ficha-1{
+      border-left:1px solid #ddd;
+   }
+
+   div.contenedor div.contenidos div.slider-container div.candidatos div.slide div#ficha-9{
+      border-right:1px solid #ddd;
+   }*/
+
+   /* tarjetas */
+
+   div.contenedor div.contenidos div.tarjetas-container{ 
+      position:relative;
+      height:450px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta{
+      width: 45%;
+      max-width: 150px;
+      height: 210px;
+      position: absolute;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta#tarj1{
+      top:10px;
+      left:2%;
+   }
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta#tarj2{
+      top:10px;
+      right:2%;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta#tarj3{
+      top:230px;
+      left:2%;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta#tarj4{
+      top:230px;
+      right:2%;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.sincard{
+      height: 210px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card {
+      width: 100%;
+      height: 210px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.cerrar, 
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.cerrar{
+      bottom: -1px;
+      left: -3px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras, 
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.adelante{
+      height: 210px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.nom, 
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom{
+      width: 67%;
+      font-size: 15px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom,
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom span{
+      display:none;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure{
+      height: 210px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure img{
+      width: 100%;
+      margin-top: 30px;
+      bottom:-65px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
+      margin: 10px 5px;
+      margin-bottom:5px;
+      background-image:none;
+      padding-left: 5px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio{
+      margin: 0px 6px;
+      height: 164px;
+      overflow: hidden;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad, div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.profesion, div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.web, div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.texto{
+      padding: 0px 10px 5px 8px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad{
+      margin-top:5px;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.texto{
+      height: 95px;
+      border-top: 1px solid #D8D8D8;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.sincard div.seleccione{
+      width: 71%;
+      top: 9%;
+      left: 6%;
+   }
+
+
+} /* fin 600 */
+
+@media only screen and (max-width: 400px) {
+
+   div.contenedor div.contenidos div.cajaFixed{
+      left: 0%;
+      height: 40px;
+   }
+   
+
+   /* FICHAS */
+
+   div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha{
+      width: 18.9%;
+      height: 70px;
+      border-bottom: 1px solid #e7e7e7;
+      -webkit-transform: skew(0deg); 
+      -moz-transform: skew(0deg); 
+      -o-transform: skew(0deg);
+      transform: skew(0deg);
+   }
+
+   div.contenedor div.contenidos div.slider-container{
+      height: 147px;
+   }
+
+   
+
+   div.contenedor div.contenidos div.cajaFixed div.candi{
+      width: 22%;
+      min-height: 25px;
+      margin: -3px 0.5%;
+   }
+
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card div.vermas, div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card div.vermenos{
+      top: 6px;
+      right: 4px;
+   }
+
+   div.contenedor .reference-text{
+      text-align: center;
+      margin-bottom: 10px;
+   }
+
+
+   /* compartir */ 
+
+   #creditos-btn, a#descargar, a#codigo-fuente {
+      margin-left: 5px;
+      width: 90%;
+      font-size:11px;
+      text-align: center;
+   }
+
+   a#descargar, a#codigo-fuente {
+      padding: 10px 10px 7px 10px;
+      background: url('../img/descarga.png') 65px -2px no-repeat;
+   }
+
+   a#codigo-fuente {
+      background: url('../img/github.png') 66px 6px no-repeat;
+   }
+
+   div.contenedor .share-links{
+      border-top :1px solid #e7e7e7;
+      padding-top: 10px;
+      width: 100%
+   }
+
+   /* footer */
+
+   footer section#pie ul {
+      height: 60px;
+      text-align: center;
+   }
+
+   footer section#pie ul li{
+      float: none;
+      display: inline-block;
+   }
+
+   footer .copy span.textoCopy {
+      height: 33px;
+   }
+
+   footer .copy b{
+      background-image:none; 
+      margin-left: 0px;
+
+   }
+
+
+} /* fin 520 */
