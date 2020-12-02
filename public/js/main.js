@@ -60,9 +60,9 @@ var candi = []
         App.setSizes();
  
         queue()
-          .defer(d3.csv, BUILD+'data/candidatos.csv?v=16')
+          .defer(d3.csv, BUILD+'https://docs.google.com/spreadsheets/d/e/2PACX-1vTDZ0UVUY9cl2IptqV5CwYKk1vO-c1chPdMS4KP35bKUkFLyyxjTKtaWEd_e471QumJtGZVR0PRycOH/pub?gid=1716811743&single=true&output=csv')
           .defer(d3.csv, BUILD+'https://docs.google.com/spreadsheets/d/e/2PACX-1vTDZ0UVUY9cl2IptqV5CwYKk1vO-c1chPdMS4KP35bKUkFLyyxjTKtaWEd_e471QumJtGZVR0PRycOH/pub?gid=0&single=true&output=csv')
-          .defer(d3.csv, BUILD+'data/partidos.csv?v=16')
+          .defer(d3.csv, BUILD+'https://docs.google.com/spreadsheets/d/e/2PACX-1vTDZ0UVUY9cl2IptqV5CwYKk1vO-c1chPdMS4KP35bKUkFLyyxjTKtaWEd_e471QumJtGZVR0PRycOH/pub?gid=26713409&single=true&output=csv')
           .awaitAll(App.filesLoaded);
  
     };
