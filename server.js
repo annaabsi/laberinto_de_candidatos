@@ -1,17 +1,7 @@
-var express = require('express');
-var fs = require('fs');
-var path = require('path');
-var PORT = process.env.PORT || 3000;
-var FACTORIAL = path.join(__dirname, 'index.html');
+const express = require('express');
+const app = express();
+const PORT = 3000;
 
-express()
-  .use(hello)
-  .listen(PORT, onListen);
+app.use(express.static('public'));
 
-function hello(req, res, next) {
-  res.sendFile(FACTORIAL);
-}
-
-function onListen() {
-  console.log('Listening on', PORT);
-}
+app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
