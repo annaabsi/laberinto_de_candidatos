@@ -39,6 +39,8 @@
   },
   "dependencies": {
     "grunt-cli": "^1.3.2",
-    "grunt-heroku-deploy": "^0.1.1"
+    "grunt": "*",
+    "grunt-contrib": "*",
+    "less": "*"
   }
 }

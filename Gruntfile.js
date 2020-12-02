@@ -167,6 +167,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
 
   grunt.registerTask('server', ['connect:dev','watch']);
+  grunt.registerTask('heroku', 'clean less mincss');
   grunt.registerTask('dev', ['env:dev', 'preprocess:dev']);
   grunt.registerTask('build', ['copy:no_css_files','copy:imgs','copy:data','cssmin','concat:libs','uglify:code','env:prod', 'preprocess:prod','preprocess:bkp','connect:prod']);
 
