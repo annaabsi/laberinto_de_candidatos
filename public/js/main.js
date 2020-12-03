@@ -1,9 +1,9 @@
     
 var App;
  
-$( window ).resize(function() {
+/*$( window ).resize(function() {
      location.reload();
-});
+});*/
  
 var ancho = $( ".contenedor" ).width();
 var candi = []
@@ -74,7 +74,7 @@ var candi = []
  
     App.getHash = function() {
         var hash = window.location.hash;
-        App.params.selectedIds = (hash)?hash.substring(1).split('-').slice(0,4):[];
+        App.params.selectedIds = (hash)?hash.substring(1).split('-').slice(0,5):[];
         candi = App.params.selectedIds;
         cargamosHash();
     };

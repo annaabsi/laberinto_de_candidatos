@@ -66,7 +66,8 @@ d3.politicos = function(containerId,width,partidoDetalle) {
     if(!x){
       //Scales
       x = d3.scale.ordinal()
-         .domain(d3.range(2000, 2023))
+         .domain([0,2001,2002,2006,2010,2011,2014,2016,2018,2020,2021,2022])
+          /*.domain(["EG2001", "EMR2002", "EG2006", "EMR2006", "EMR2010", "EG2011", "EMR2014", "EG2016", "EMR2018", "ECE2020", "EG2021"])*/
          .rangePoints([0, width-left_width-padding_right]);
 
     }
@@ -274,7 +275,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
               .tickSize( -width )
               .tickFormat("")
           );
-
+    /*Error en grilla vertical*/
     gxAxisLines.call(xAxis2Orig
               .tickSize( (padding_top + (partido_height * yData.length) + (padding_top_axis) ) *-1)
               .tickFormat("")
