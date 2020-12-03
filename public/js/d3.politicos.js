@@ -255,7 +255,16 @@ d3.politicos = function(containerId,width,partidoDetalle) {
     yAxis.scale(y)
       .tickValues(yData)
       .tickFormat(function(d){
-        return partidoDetalleData.get(d)[0].corto;
+        d3.select(".y").selectAll(".tick").each(function(d,i){
+          d3.select(this)
+            .append('image')
+            .attr('xlink:href', partidoDetalleData.get(d)[0].imagen)
+            .attr('x',-50)
+              .attr('y',-20)
+            .attr('width',40)
+            .attr('height',40);
+        });
+        return partidoDetalleData.get(d)[0].id_partido;
       });
 
     gyAxis.transition().call(yAxis);

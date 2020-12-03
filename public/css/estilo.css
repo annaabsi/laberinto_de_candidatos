@@ -556,7 +556,19 @@ div.contenedor div.contenidos div.select-container .select2-container .selected-
 .qtip-orange {
 	background-color: #F7931E;
 	border-color: #F7931E;
-	color:#000 !important;
+}
+
+div.contenedor div.contenidos div.select-container .select2-container .selected-reference-orange,
+.qtip-yellow {
+	background-color: #FFCC00;
+	border-color: #FFCC00;
+
+}
+
+div.contenedor div.contenidos div.select-container .select2-container .selected-reference-orange,
+.qtip-red {
+	background-color: #B30000;
+	border-color: #B30000;
 }
 
 div.contenedor div.contenidos div.select-container .select2-container .selected-reference-orange,
@@ -669,6 +681,7 @@ path.line-yellow {
 	font-weight: normal;
 	font-family: Arial,Helvetica,sans-serif;
 	font-size:12px;
+	display: none;
 }
 
 .x .tick text {
