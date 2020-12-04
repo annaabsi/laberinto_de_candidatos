@@ -21,7 +21,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
       gyAxis,
       gyHover,
       
-      left_width = 110,
+      left_width = 60,
       padding_top = 45,
       padding_top_axis = 30,
       padding_bottom = 12,
@@ -184,11 +184,11 @@ d3.politicos = function(containerId,width,partidoDetalle) {
           .attr("x2", left_width)
           .attr("y2", padding_top_axis);
 
-      referencesGrid.append("line")
+      /*referencesGrid.append("line")
           .attr("x1", left_width)
           .attr("y1", 0)
           .attr("x2", left_width)
-          .attr("y2", padding_top_axis);
+          .attr("y2", padding_top_axis);*/
 
       referencesGrid.append("svg:image")
           .attr("xlink:href", BUILD+"img/lArrow.png")
@@ -197,20 +197,20 @@ d3.politicos = function(containerId,width,partidoDetalle) {
           .attr("width", 8)
           .attr("height", 14);
 
-      referencesGrid.append("svg:image")
+      /*referencesGrid.append("svg:image")
           .attr("xlink:href", BUILD+"img/dArrow.png")
           .attr("x", 80)
           .attr("y", 42)
           .attr("width", 14)
-          .attr("height", 12);
+          .attr("height", 12);*/
     
       referenceBottomLineH = referencesGrid.append("line")
           .attr("x1", 0)
           .attr("x2", left_width);
 
-      referenceBottomLineV = referencesGrid.append("line")
+      /*referenceBottomLineV = referencesGrid.append("line")
           .attr("x1", left_width)
-          .attr("x2", left_width);
+          .attr("x2", left_width);*/
 
       referenceLabelTop.append("text")
           .attr("x", 7)
@@ -221,7 +221,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
       referenceLabelTop.append("text")
           .attr("x", 7)
           .attr("y", padding_top_axis + 24)
-          .text( "PARTIDOS" )
+          .text( "" )
           .attr("class", "label-reference");
 
       referenceLabelBottom.append("text")
@@ -246,9 +246,9 @@ d3.politicos = function(containerId,width,partidoDetalle) {
       .attr('y1', (padding_top + (partido_height * yData.length) + (padding_top_axis*2)))
       .attr("y2", (padding_top + (partido_height * yData.length) + (padding_top_axis*2)));  
 
-    referenceBottomLineV
+    /*referenceBottomLineV
       .attr('y1', (padding_top + (partido_height * yData.length) + (padding_top_axis*2)))
-      .attr("y2", (padding_top + (partido_height * yData.length) + (padding_top_axis*3)));  
+      .attr("y2", (padding_top + (partido_height * yData.length) + (padding_top_axis*3)));*/
 
     gxAxis.transition()
       .attr('transform', 'translate('+left_width+', '+(padding_top + (partido_height * yData.length) + (padding_top_axis*2))+')');

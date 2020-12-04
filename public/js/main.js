@@ -48,7 +48,7 @@ var candi = []
     App.page = 0;
     App.candidatosSelected = [];
     App.candidatosDetalleSelected = [];
-    App.colors = ['red','green','purple','orange','yellow'];
+    App.colors = ['red','green','purple','orange','yellow', 'blue'];
  
     //Grap
     App.graph;
@@ -74,7 +74,7 @@ var candi = []
  
     App.getHash = function() {
         var hash = window.location.hash;
-        App.params.selectedIds = (hash)?hash.substring(1).split('-').slice(0,5):[];
+        App.params.selectedIds = (hash)?hash.substring(1).split('-').slice(0,6):[];
         candi = App.params.selectedIds;
         cargamosHash();
     };
@@ -175,8 +175,8 @@ var candi = []
     App.createSelect = function(){
         App.$selectContainer.html(App.selectListTemplate(App.dataFicha));
         var options = {
-            maximumSelectionSize: 5,
-            placeholder: "Selecciona hasta 5 políticos",
+            maximumSelectionSize: 6,
+            placeholder: "Selecciona hasta 6 políticos",
             formatSelection: App.formatSelect,
             escapeMarkup:function (m) { return m;}
         };
@@ -256,7 +256,7 @@ var candi = []
             borramos();
  
         }else{
-            if(App.candidatosSelected.length<5){
+            if(App.candidatosSelected.length<6){
                 App.selectCandidato(f.data('id'));
                 App.updateGraph();
                 cargamos();
@@ -282,7 +282,7 @@ var candi = []
                         info += '<div class="vermas" title="Ver más"><i class="fas fa-info"></i></div>';
                         info += '<div class="cerrar"><i class="fas fa-times"></i></div>'
                         info += '<img src="'+canDatos[+candi[i]-1].foto+'" border="0"/>'
-                        info += '<div class="nom color-'+App.colors[i]+'">'+canDatos[+candi[i]-1].nombre+'<br><span class="partido">'+canDatos[+candi[i]-1].partido+'</span></div></figure>'
+                        info += '<div class="nom color-'+App.colors[i]+'">'+canDatos[+candi[i]-1].nombre+'<br><p class="partido">'+canDatos[+candi[i]-1].partido+'</p></div></figure>'
                         info += '<figure class="atras">'
                         //info += '<div class="flipon"></div>';
                         info += '<div class="vermenos" title="Ver menos">-</div>';
@@ -328,7 +328,7 @@ var candi = []
             var pasa = 0;
             var candidato = App.getDataCandidato(idf);
             
-            for (var i = 1; i < 6; i++) {
+            for (var i = 1; i < 7; i++) {
   
  
                     if( $("#tarj"+[i]).hasClass( "cargada" ) || pasa == 1 ){
@@ -346,7 +346,7 @@ var candi = []
                         info += '<div class="vermas" title="Ver más"><i class="fas fa-info"></i></div>';
                         info += '<div class="cerrar"><i class="fas fa-times"></i></div>'
                         info += '<img src="'+canDatos[(idf-1)].foto+'" border="0"/>';
-                        info += '<div class="nom color-'+candidato.color+'">'+canDatos[(idf-1)].nombre+'<br><span class="partido">'+canDatos[(idf-1)].partido+'</span></div></figure>';
+                        info += '<div class="nom color-'+candidato.color+'">'+canDatos[(idf-1)].nombre+'<br><p class="partido">'+canDatos[(idf-1)].partido+'</p></div></figure>';
                         info += '<figure class="atras">';
                         //info += '<div class="flipon"></div>';
                         info += '<div class="vermenos" title="Volver">-</div>';
@@ -397,7 +397,7 @@ var candi = []
    function borramos(){
  
        var pasa = 0
-       for (var i = 1; i < 6; i++) {
+       for (var i = 1; i < 7; i++) {
  
            if( $("#tarj"+[i]).data( "id" ) == idf ){
  
@@ -411,7 +411,7 @@ var candi = []
                 $( "#cand"+[i] ).removeClass( "color-orange2" )
                 $( "#cand"+[i] ).removeClass( "color-purple2" )
                 $( "#cand"+[i] ).removeClass( "color-yellow2" )
- 
+                $( "#cand"+[i] ).removeClass( "color-blue2" )
            };
  
        }
@@ -460,7 +460,7 @@ var candi = []
             $( "#cand"+id[1] ).removeClass( "color-orange2" )
             $( "#cand"+id[1] ).removeClass( "color-purple2" )
             $( "#cand"+id[1] ).removeClass( "color-yellow2" )
- 
+            $( "#cand"+id[1] ).removeClass( "color-blue2" )
        });
 
        
@@ -582,7 +582,7 @@ var candi = []
  
    App.checkLimit = function(){
        //fichas
-       if(App.candidatosSelected.length==5){
+       if(App.candidatosSelected.length==6){
            App.$slide.find('.ficha').not('.selected').addClass('disabled');
        } else if (App.$slide.find('.disabled').size()>0){
            App.$slide.find('.ficha').not('.selected').removeClass('disabled');
