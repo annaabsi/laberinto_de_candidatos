@@ -700,7 +700,7 @@ path.line-blue {
 .x .tick text {
 	font-weight: normal;
 	font-family: TheSans,Arial,Helvetica,sans-serif;
-	font-size:15px;
+	font-size:13px;
 }
 
 .x2 {color:#32A9D3;}
@@ -792,7 +792,7 @@ div.contenedor p.reference-white {
 
 .label-reference {
 	font-family:  'TheSans', sans-serif; 
-	font-size: 15px;
+	font-size: 13px;
 }
 
 /* CREDITOS */

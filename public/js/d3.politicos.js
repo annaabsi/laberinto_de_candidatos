@@ -66,8 +66,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
     if(!x){
       //Scales
       x = d3.scale.ordinal()
-         .domain([0,2001,2002,2006,2010,2011,2014,2016,2018,2020,2021,2022])
-          /*.domain(["EG2001", "EMR2002", "EG2006", "EMR2006", "EMR2010", "EG2011", "EMR2014", "EG2016", "EMR2018", "ECE2020", "EG2021"])*/
+         .domain(["(-2000)", "EG2001", "EMR2002", "EG2006", "EMR2006", "EMR2010", "EG2011", "EMR2014", "EG2016", "EMR2018", "ECE2020", "EG2021","x"])
          .rangePoints([0, width-left_width-padding_right]);
 
     }
@@ -97,7 +96,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
 
     if(!gxAxis){
 
-      var anios = [2001, 2002, 2006, 2010, 2011, 2014, 2016, 2018, 2020, 2021];
+      var anios = ["EG2001", "EMR2002", "EG2006", "EMR2006", "EMR2010", "EG2011", "EMR2014", "EG2016", "EMR2018", "ECE2020", "EG2021"];
 
       xAxis = d3.svg.axis()
         .scale(x)
@@ -105,18 +104,18 @@ d3.politicos = function(containerId,width,partidoDetalle) {
         .tickValues(anios)
         .tickSize(6)
         .tickPadding(5)
-        .tickFormat(function(d, i){
-          /*if(d == 2014){
+        /*.tickFormat(function(d, i){
+          if(d == 2014){
             return "2014";
           }else if(d == 2015){
             return "2015";
           }else{
             var a = d.toString().split("20")
             return a[1];
-          }*/
+          }
           var a = d.toString().slice(2,4)
           return "'"+a;
-         });
+         })*/;
 
 
       gxAxis = chart.append('g')
@@ -127,18 +126,18 @@ d3.politicos = function(containerId,width,partidoDetalle) {
         .scale(x)
         .orient('top')
         .tickValues(anios)
-        .tickFormat(function(d, i){
-          /*if(d == 2014){
+        /*.tickFormat(function(d, i){
+          if(d == 2014){
             return "2014";
           }else if(d == 2015){
             return "2015";
           }else{
             var a = d.toString().split("20")
             return a[1];
-          }*/
+          }
           var a = d.toString().slice(2,4)
           return "'"+a;
-         });
+         })*/;
       
       xAxis2 = xAxis2Orig
         .tickSize(6)
@@ -602,7 +601,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
 
       html += 
             '<p class="nombre-tooltip">' + d.nombre.toUpperCase() + '</p>'
-            +'<p class="nombre-tooltip">Año ' + fecha + '</p>'
+            +'<p class="nombre-tooltip">' + fecha + '</p>'
             +'<p class="partido-tooltip">' + d.partido.toUpperCase() + '</p>'
             +'<p class="desc-tooltip">' + d.observacion + '</p>';
 
