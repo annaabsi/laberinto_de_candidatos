@@ -74,7 +74,7 @@ var candi = []
  
     App.getHash = function() {
         var hash = window.location.hash;
-        App.params.selectedIds = (hash)?hash.substring(1).split('-').slice(0,6):[];
+        App.params.selectedIds = (hash)?hash.substring(1).split('-').slice(0,5):[];
         candi = App.params.selectedIds;
         cargamosHash();
     };
@@ -175,8 +175,8 @@ var candi = []
     App.createSelect = function(){
         App.$selectContainer.html(App.selectListTemplate(App.dataFicha));
         var options = {
-            maximumSelectionSize: 6,
-            placeholder: "Selecciona hasta 6 políticos",
+            maximumSelectionSize: 5,
+            placeholder: "Selecciona hasta 5 políticos",
             formatSelection: App.formatSelect,
             escapeMarkup:function (m) { return m;}
         };
@@ -256,7 +256,7 @@ var candi = []
             borramos();
  
         }else{
-            if(App.candidatosSelected.length<6){
+            if(App.candidatosSelected.length<5){
                 App.selectCandidato(f.data('id'));
                 App.updateGraph();
                 cargamos();
@@ -328,7 +328,7 @@ var candi = []
             var pasa = 0;
             var candidato = App.getDataCandidato(idf);
             
-            for (var i = 1; i < 7; i++) {
+            for (var i = 1; i < 6; i++) {
   
  
                     if( $("#tarj"+[i]).hasClass( "cargada" ) || pasa == 1 ){
@@ -397,7 +397,7 @@ var candi = []
    function borramos(){
  
        var pasa = 0
-       for (var i = 1; i < 7; i++) {
+       for (var i = 1; i < 6; i++) {
  
            if( $("#tarj"+[i]).data( "id" ) == idf ){
  
@@ -582,7 +582,7 @@ var candi = []
  
    App.checkLimit = function(){
        //fichas
-       if(App.candidatosSelected.length==6){
+       if(App.candidatosSelected.length==5){
            App.$slide.find('.ficha').not('.selected').addClass('disabled');
        } else if (App.$slide.find('.disabled').size()>0){
            App.$slide.find('.ficha').not('.selected').removeClass('disabled');
