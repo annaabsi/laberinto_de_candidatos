@@ -878,14 +878,14 @@ a#codigo-fuente:hover{
 	border-color: #DDD;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
 	.x.axis .tick text {
       transform: translate(-18px, -18px) rotate(270deg);
-      font-size: 7px;
+      font-size: 8px;
    }
 	.x.axis2 .tick text {
       transform: translate(9px, 18px) rotate(270deg);
-      font-size: 7px;
+      font-size: 8px;
    }
 	.x .tick line, .y .tick line {
 		display: none;
