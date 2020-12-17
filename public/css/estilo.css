@@ -698,9 +698,9 @@ path.line-blue {
 }
 
 .x .tick text {
-	font-weight: normal;
+	font-weight: bold;
 	font-family: TheSans,Arial,Helvetica,sans-serif;
-	font-size:13px;
+	font-size:12px;
 }
 
 .x2 {color:#32A9D3;}
@@ -878,9 +878,27 @@ a#codigo-fuente:hover{
 	border-color: #DDD;
 }
 
-/*@media only screen and (max-width: 450px) {
-	.x .tick text {
-      transform: translate(-2.5%, -6%) rotate(90deg);
+@media only screen and (max-width: 450px) {
+	.x.axis .tick text {
+      transform: translate(-18px, -18px) rotate(270deg);
       font-size: 7px;
    }
+	.x.axis2 .tick text {
+      transform: translate(9px, 18px) rotate(270deg);
+      font-size: 7px;
+   }
+	.x .tick line, .y .tick line {
+		display: none;
+	}
+	.reference-container image {
+		display: none;
+	}
+	.reference-container text {
+		font-size: 9px;
+		transform: translate(0px, 18px);
+	}
+}
+
+.x.axis path.domain, .x.axis2 path.domain {
+	display: none;
 }

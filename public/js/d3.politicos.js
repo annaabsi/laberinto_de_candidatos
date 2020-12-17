@@ -180,7 +180,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
       referencesGrid.append("line")
           .attr("x1", 0)
           .attr("y1", padding_top_axis)
-          .attr("x2", left_width)
+          .attr("x2", width)
           .attr("y2", padding_top_axis);
 
       /*referencesGrid.append("line")
@@ -188,13 +188,6 @@ d3.politicos = function(containerId,width,partidoDetalle) {
           .attr("y1", 0)
           .attr("x2", left_width)
           .attr("y2", padding_top_axis);*/
-
-      referencesGrid.append("svg:image")
-          .attr("xlink:href", BUILD+"img/lArrow.png")
-          .attr("x", 90)
-          .attr("y", 10)
-          .attr("width", 8)
-          .attr("height", 14);
 
       /*referencesGrid.append("svg:image")
           .attr("xlink:href", BUILD+"img/dArrow.png")
@@ -205,7 +198,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
     
       referenceBottomLineH = referencesGrid.append("line")
           .attr("x1", 0)
-          .attr("x2", left_width);
+          .attr("x2", width);
 
       /*referenceBottomLineV = referencesGrid.append("line")
           .attr("x1", left_width)
@@ -222,6 +215,13 @@ d3.politicos = function(containerId,width,partidoDetalle) {
           .attr("y", padding_top_axis + 24)
           .text( "" )
           .attr("class", "label-reference");
+
+      referenceLabelTop.append("svg:image")
+          .attr("xlink:href", BUILD+"img/lArrow.png")
+          .attr("x", 90)
+          .attr("y", 10)
+          .attr("width", 8)
+          .attr("height", 14);
 
       referenceLabelBottom.append("text")
           .attr("x", 7)
@@ -347,7 +347,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
     partidos.enter()
       .append("rect")
       .attr("class", 'guia-partido')
-      .attr("width", width-left_width)
+      .attr("width", width-left_width-2)
       .attr("height", partido_guia_height)
       .attr("x", left_width);
 
