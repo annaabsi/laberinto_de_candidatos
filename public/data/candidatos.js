@@ -251,4 +251,28 @@ var canDatos = [
         link:"danielscioli.com.ar",
         bio:"Lorem Ipsum"
     },
+
+    candidato22 = {
+        nombre:"Fernando Olivera",
+        partido:"Frente de la Esperanza 2021",
+        twitter:"@",
+        foto:"img/cand-gr/olivera.jpg",
+        edad:"XX Años",
+        profesion:"Lorem Ipsum",
+        web:"http://www.danielscioli.com.ar",
+        link:"danielscioli.com.ar",
+        bio:"Lorem Ipsum"
+    },
+
+    candidato23 = {
+        nombre:"Pedro Angulo",
+        partido:"Contigo",
+        twitter:"@",
+        foto:"img/cand-gr/angulo.jpg",
+        edad:"XX Años",
+        profesion:"Lorem Ipsum",
+        web:"http://www.danielscioli.com.ar",
+        link:"danielscioli.com.ar",
+        bio:"Lorem Ipsum"
+    },
 ]
