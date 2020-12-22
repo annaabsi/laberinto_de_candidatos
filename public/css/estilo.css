@@ -880,12 +880,14 @@ a#codigo-fuente:hover{
 
 @media only screen and (max-width: 600px) {
 	.x.axis .tick text {
-      transform: translate(-18px, -18px) rotate(270deg);
+      transform: translate(-18px, -34px) rotate(270deg);
       font-size: 8px;
+		text-anchor: end !important;
    }
 	.x.axis2 .tick text {
-      transform: translate(9px, 18px) rotate(270deg);
+      transform: translate(9px, 2px) rotate(270deg);
       font-size: 8px;
+		text-anchor: end !important;
    }
 	.x .tick line, .y .tick line {
 		display: none;
