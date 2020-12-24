@@ -607,7 +607,7 @@ d3.politicos = function(containerId,width,partidoDetalle) {
 
       html += (d.nota)?'<p class="link-tooltip"><a target="_blank" href="' + d.nota + '" >VER NOTA</a></p>':'';
 
-      myParam = (parseInt(d.fecha)<2009)?'bottom left':'bottom right';
+      myParam = (d.fecha=="(-2000)"||d.fecha=="EG2001"||d.fecha=="EMR2002"||d.fecha=="EG2006"||d.fecha=="EMR2006"||d.fecha=="EMR2010")?'bottom left':'bottom right';
 
       $(this).qtip("destroy", true).qtip({
           content: { 
