@@ -268,17 +268,15 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card div.ve
    text-align: center;
    line-height: 16px;
    font-size: 8px;
+   display: none;
 }
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card div.vermenos{
-   background: #E2E2E2;
-   padding: 0px 10px;
-   font-size: 25px;
+   background: #7B7B7B;
    font-weight: bold;
-   color: #335577;
-   padding-bottom: 3px;
-   padding: 0px 8px;
-   font-size: 21px;
+   color: #fff;
+   padding: 0;
+   font-size: 10px;
 }
 
 
