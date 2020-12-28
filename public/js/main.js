@@ -287,8 +287,13 @@ var candi = []
                         //info += '<div class="flipon"></div>';
                         info += '<div class="vermenos" title="Ver menos">-</div>';
                         info += '<div class="nom">'+canDatos[+candi[i]-1].nombre+'</div>'
-                        //info += '<div class="twitter"><a href="http://twitter.com/'+canDatos[+candi[i]-1].twitter+'" target="_blank">'+canDatos[+candi[i]-1].twitter+'</a></div>'
-                        info += '<div class="bio">'
+                        info += '<div class="twitter"><a href="http://twitter.com/'+canDatos[+candi[i]-1].twitter+'" target="_blank">'+canDatos[+candi[i]-1].twitter+'</a></div>'
+                        info += '<div class="bio"><div class="edad"><span>Edad: </span>'+canDatos[+candi[i]-1].edad+'</div><div class="profesion"><span>Profesión: </span>'+canDatos[+candi[i]-1].profesion+'</div><div class="web"><span>Web: </span>';
+                        if(canDatos[+candi[i]-1].link == "No posee"){
+                          info += 'No posee web</div>';
+                        }else{
+                          info += '<a href="'+canDatos[+candi[i]-1].web+'" target="_blank">'+canDatos[+candi[i]-1].link+'</a></div>';
+                        }
                         info += '<div class="texto">'+canDatos[+candi[i]-1].bio+'</div></div>'
                         info += '<div class="cerrar"><i class="fas fa-times"></i></div>'
                         info += '</figure></div>'
@@ -346,8 +351,13 @@ var candi = []
                         //info += '<div class="flipon"></div>';
                         info += '<div class="vermenos" title="Volver">-</div>';
                         info += '<div class="nom color-'+candidato.color+'">'+canDatos[(idf-1)].nombre+'</div>';
-                        //info += '<div class="twitter"><a href="http://twitter.com/'+canDatos[(idf-1)].twitter+'" target="_blank">'+canDatos[(idf-1)].twitter+'</a></div>';
-                        info += '<div class="bio">'
+                        info += '<div class="twitter"><a href="http://twitter.com/'+canDatos[(idf-1)].twitter+'" target="_blank">'+canDatos[(idf-1)].twitter+'</a></div>';
+                        info += '<div class="bio"><div class="edad"><span>Edad: </span>'+canDatos[+candi[i]-1].edad+'</div><div class="profesion"><span>Profesión: </span>'+canDatos[+candi[i]-1].profesion+'</div><div class="web"><span>Web: </span>';
+                        if(canDatos[+candi[i]-1].link == "No posee"){
+                          info += 'No posee web</div>';
+                        }else{
+                          info += '<a href="'+canDatos[+candi[i]-1].web+'" target="_blank">'+canDatos[+candi[i]-1].link+'</a></div>';
+                        }
                         info += '<div class="texto">'+canDatos[(idf-1)].bio+'</div></div>';
                         info += '<div class="cerrar"><i class="fas fa-times"></i></div>'
                         info += '</figure></div>';
