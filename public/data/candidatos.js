@@ -19,6 +19,8 @@ var canDatos = [
         foto:"img/cand-gr/vilchez.png",
         edad:"54 Años",
         profesion:"Contadora",
+        web:"",
+        link:"No registrada",
         bio:"La excongresista ganó los comicios internos en el Apra. Su plancha presidencial la integran el ingeniero Iván Hidalgo Romero y la regidora provincial de Trujillo Olga Cribilleros, en la primera y segunda vicepresidencia, respectivamente."
     },
 
