@@ -3,24 +3,22 @@ var canDatos = [
     candidato1 = {
         nombre:"Yonhy Lescano",
         partido:"Acción Popular",
-        twitter:"@",
+        twitter:"@yonhy_lescano",
         foto:"img/cand-gr/lescano.png",
-        edad:"XX Años",
-        profesion:"Lorem Ipsum",
-        web:"http://www.danielscioli.com.ar",
-        link:"danielscioli.com.ar",
+        edad:"61 Años",
+        profesion:"Abogado",
+        web:"http://www.lescano.pe/index.html",
+        link:"lescano.pe/index.html",
         bio:"El excongresista resultó elegido candidato presidencial de Acción Popular, tras obtener más votos en los comicios internos. Su plancha presidencial está formada por Gisela Tipe como primera vicepresidenta y Luis Alberto Velarde como segundo vicepresidente."
     },
 
     candidato2 = {
         nombre:"Nidia Vilchez",
         partido:"APRA",
-        twitter:"@",
+        twitter:"@nidiavilchez",
         foto:"img/cand-gr/vilchez.png",
-        edad:"XX Años",
-        profesion:"Lorem Ipsum",
-        web:"http://www.danielscioli.com.ar",
-        link:"danielscioli.com.ar",
+        edad:"54 Años",
+        profesion:"Contadora",
         bio:"La excongresista ganó los comicios internos en el Apra. Su plancha presidencial la integran el ingeniero Iván Hidalgo Romero y la regidora provincial de Trujillo Olga Cribilleros, en la primera y segunda vicepresidencia, respectivamente."
     },
 
