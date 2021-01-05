@@ -286,7 +286,7 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras{
    width:100%;
-   height:auto;
+   height:245px;
    position: absolute;
    top:0px;
    border-radius:5px;
@@ -619,10 +619,10 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
      display: none;
    }
 
-   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
+   /*div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
       margin: 55px 10px;
       margin-bottom: 10px;
-   }
+   }*/
 
    div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio{
       height: 195px;
