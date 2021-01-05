@@ -344,6 +344,10 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
    margin: 0px;
 }
 
+::-webkit-scrollbar {
+   width: 1px;
+}
+
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.web{
    font-size: 10px;
    overflow: hidden;
