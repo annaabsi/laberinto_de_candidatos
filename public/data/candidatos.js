@@ -105,7 +105,7 @@ var canDatos = [
         profesion:"Ingeniero",
         web:"https://www.cesaracuna.pe/",
         link:"https://www.cesaracuna.pe/",
-        bio:"El fundador de Alianza por el Progreso intentará llegar al poder por segunda vez. Tiene a la congresista Carmen Omonte como primera vicepresidenta y el exlegislador Luis Iberico como segundo vicepresidente."
+        bio:"El fundador de Alianza para el Progreso intentará llegar al poder por segunda vez. Tiene a la congresista Carmen Omonte como primera vicepresidenta y el exlegislador Luis Iberico como segundo vicepresidente."
     },
 
     candidato10 = {
@@ -117,7 +117,7 @@ var canDatos = [
         profesion:"Arquitecto",
         web:"",
         link:"No registra web",
-        bio:"El exlegislador Daniel Salaverry postulará por primera vez a la Presidencia. Esta vez representa partido Somos Perú. En su fórmula tiene a Matilde Fernández y Jorge Pérez, en la primera y segunda vicepresidencia. Una de sus principales fichas para el Congreso es el exmandatario Martín Vizcarra."
+        bio:"El exlegislador Daniel Salaverry postulará por primera vez a la Presidencia. Esta vez representa al partido Somos Perú. En su fórmula tiene a Matilde Fernández y Jorge Pérez, en la primera y segunda vicepresidencia. Una de sus principales fichas para el Congreso es el exmandatario Martín Vizcarra."
     },
 
     candidato11 = {
@@ -213,7 +213,7 @@ var canDatos = [
         profesion:"Profesor",
         web:"",
         link:"No registra web",
-        bio:"El exdirigente del Sutep resultó elegido como candidato presidencial por el partido Perú Libre. En su plancha tiene a la abogada Dina Boluarte como primera vicepresidencia y a Waldemar Cerrón, el hermano de sentenciado Vladimir Cerrón, como segundo vicepresidente."
+        bio:"El exdirigente del Sutep resultó elegido como candidato presidencial por el partido Perú Libre. En su plancha tiene a la abogada Dina Boluarte como candidata a la primera vicepresidencia y a Waldemar Cerrón, el hermano del sentenciado Vladimir Cerrón, como candidato a segundo vicepresidente."
     },
 
     candidato19 = {
@@ -261,7 +261,7 @@ var canDatos = [
         profesion:"Administrador",
         web:"",
         link:"No registra web",
-        bio:"El exministro de Alejandro Toledo busca una vez más llegar a la presidencia con su partido Frente Esperanza, el que aún se encuentra en proceso de inscripción. Elizabeth María del Rosario León y Carlos Cuaresma Sanchez integran la primera y segunda vicepresidencia, respectivamente."
+        bio:"El exministro de Alejandro Toledo busca una vez más llegar a la presidencia con su partido Frente Esperanza, el que aún se encuentra en proceso de inscripción. Elizabeth María del Rosario León y Carlos Cuaresma Sanchez postulan a la primera y segunda vicepresidencia, respectivamente."
     },
 
     candidato23 = {
@@ -273,6 +273,6 @@ var canDatos = [
         profesion:"Abogado",
         web:"",
         link:"No registra web",
-        bio:"El partido Contigo eligió a Pedro Angulo con 28 votos de delegados. En la misma fórmula, Casimira Mujica va en la primera vicepresidencia y Alexander Von Ehren como sedundo vicepresidente. Máximo San Román renunció a su precandidatura."
+        bio:"El partido Contigo eligió a Pedro Angulo con 28 votos de delegados. En la misma fórmula, Casimira Mujica va en la primera vicepresidencia y Alexander Von Ehren como segundo vicepresidente. Máximo San Román renunció a su precandidatura."
     },
 ]
