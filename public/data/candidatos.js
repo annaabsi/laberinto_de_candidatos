@@ -246,7 +246,7 @@ var canDatos = [
         twitter:"@Vero_Mendoza_F",
         foto:"img/cand-gr/mendoza.png",
         edad:"40 Años",
-        profesion:"Psicóloga y antropóloga",
+        profesion:"Psicóloga",
         web:"",
         link:"No registra web",
         bio:"Juntos por el Perú presentó a Verónika Mendoza como su candidata presidencial. La lideresa del movimiento Nuevo Perú incluyó en su lista a José De Echave, exviceministro del Ministerio del Ambiente durante el 2011, y a la abogada Luzmila Ayay en la primera y segunda vicepresidencia, respectivamente."
