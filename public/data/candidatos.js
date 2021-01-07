@@ -207,7 +207,7 @@ var canDatos = [
     candidato18 = {
         nombre:"Pedro Castillo",
         partido:"Perú Libre",
-        twitter:"No hay registro",
+        twitter:"No registra",
         foto:"img/cand-gr/castillo.png",
         edad:"50 Años",
         profesion:"Profesor",
