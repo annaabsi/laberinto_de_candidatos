@@ -20,7 +20,7 @@ var canDatos = [
         edad:"54 Años",
         profesion:"Contadora",
         web:"",
-        link:"No registra",
+        link:"No registra web",
         bio:"La excongresista ganó los comicios internos en el Apra. Su plancha presidencial la integran el ingeniero Iván Hidalgo Romero y la regidora provincial de Trujillo Olga Cribilleros, en la primera y segunda vicepresidencia, respectivamente."
     },
 
@@ -92,7 +92,7 @@ var canDatos = [
         edad:"60 Años",
         profesion:"Abogado",
         web:"",
-        link:"No registra",
+        link:"No registra web",
         bio:"Andrés Alcántara buscará llegar por primera vez a la Presidencia con su partido Democracia Directa, anteriormente apuntó a la vicepresidencia y al Congreso sin éxito. Tiene en su plancha a Elena Ascarza y a Javier Espinoza."
     },
 
@@ -105,7 +105,7 @@ var canDatos = [
         profesion:"Ingeniero",
         web:"https://www.cesaracuna.pe/",
         link:"https://www.cesaracuna.pe/",
-        bio:"El fundador de Alianza por el Progreso intentará llegar al poder por segunda vez. Tiene a la congresista Carmen Omonte como primera vicepresidenta y el exlegislador Luis Iberico como segundo vicepresidente."
+        bio:"El fundador de Alianza para el Progreso intentará llegar al poder por segunda vez. Tiene a la congresista Carmen Omonte como primera vicepresidenta y el exlegislador Luis Iberico como segundo vicepresidente."
     },
 
     candidato10 = {
@@ -116,8 +116,8 @@ var canDatos = [
         edad:"48 Años",
         profesion:"Arquitecto",
         web:"",
-        link:"No registra",
-        bio:"El exlegislador Daniel Salaverry postulará por primera vez a la Presidencia. Esta vez representa partido Somos Perú. En su fórmula tiene a Matilde Fernández y Jorge Pérez, en la primera y segunda vicepresidencia. Una de sus principales fichas para el Congreso es el exmandatario Martín Vizcarra."
+        link:"No registra web",
+        bio:"El exlegislador Daniel Salaverry postulará por primera vez a la Presidencia. Esta vez representa al partido Somos Perú. En su fórmula tiene a Matilde Fernández y Jorge Pérez, en la primera y segunda vicepresidencia. Una de sus principales fichas para el Congreso es el exmandatario Martín Vizcarra."
     },
 
     candidato11 = {
@@ -128,7 +128,7 @@ var canDatos = [
         edad:"64 Años",
         profesion:"Militar",
         web:"",
-        link:"No registra",
+        link:"No registra web",
         bio:"El parlamentario Daniel Urresti buscará llegar al poder, esta vez con el partido Podemos Perú. En su fórmula presidencial está la congresista María Teresa Cabrera como primera vicepresidenta y a Wilbert Portugal como segundo vicepresidente."
     },
 
@@ -140,7 +140,7 @@ var canDatos = [
         edad:"74 Años",
         profesion:"Abogado",
         web:"",
-        link:"No registra",
+        link:"No registra web",
         bio:"El fundador de Perú Nación intentará llegar a la presidencia una vez más con su partido político. En su fórmula lo acompañan Nancy Cáceres y Manuel Salazar en la primera y segunda vicepresidencia, respectivamente."
     },
 
@@ -152,7 +152,7 @@ var canDatos = [
         edad:"38 Años",
         profesion:"No registra",
         web:"",
-        link:"No registra",
+        link:"No registra web",
         bio:"Buscará llegar al poder por primera vez luego de renunciar a la alcaldía de La Victoria tras menos de dos años de gestión. Postula a Ana Patricia Arévalo como primera vicepresidenta y a Jorge Chávez Álvarez como segundo vicepresidente."
     },
 
@@ -176,7 +176,7 @@ var canDatos = [
         edad:"45 Años",
         profesion:"Administradora",
         web:"",
-        link:"No registra",
+        link:"No registra web",
         bio:"La lideresa de Fuerza Popular, Keiko Fujimori, intentará por tercera vez llegar a la Presidencia. Tendrá como primer vicepresidente al excongresista Luis Galarreta y como segunda vicepresidenta a Patricia Juárez, exfuncionaria de Luis Castañeda Lossio."
     },
 
@@ -207,13 +207,13 @@ var canDatos = [
     candidato18 = {
         nombre:"Pedro Castillo",
         partido:"Perú Libre",
-        twitter:"No hay registro",
+        twitter:"No registra",
         foto:"img/cand-gr/castillo.png",
         edad:"50 Años",
         profesion:"Profesor",
         web:"",
-        link:"No registra",
-        bio:"El exdirigente del Sutep resultó elegido como candidato presidencial por el partido Perú Libre. En su plancha tiene a la abogada Dina Boluarte como primera vicepresidencia y a Waldemar Cerrón, el hermano de sentenciado Vladimir Cerrón, como segundo vicepresidente."
+        link:"No registra web",
+        bio:"El exdirigente del Sutep resultó elegido como candidato presidencial por el partido Perú Libre. En su plancha tiene a la abogada Dina Boluarte como candidata a la primera vicepresidencia y a Waldemar Cerrón, el hermano del sentenciado Vladimir Cerrón, como candidato a segundo vicepresidente."
     },
 
     candidato19 = {
@@ -246,9 +246,9 @@ var canDatos = [
         twitter:"@Vero_Mendoza_F",
         foto:"img/cand-gr/mendoza.png",
         edad:"40 Años",
-        profesion:"Psicóloga y antropóloga",
+        profesion:"Psicóloga",
         web:"",
-        link:"No registra",
+        link:"No registra web",
         bio:"Juntos por el Perú presentó a Verónika Mendoza como su candidata presidencial. La lideresa del movimiento Nuevo Perú incluyó en su lista a José De Echave, exviceministro del Ministerio del Ambiente durante el 2011, y a la abogada Luzmila Ayay en la primera y segunda vicepresidencia, respectivamente."
     },
 
@@ -260,8 +260,8 @@ var canDatos = [
         edad:"62 Años",
         profesion:"Administrador",
         web:"",
-        link:"No registra",
-        bio:"El exministro de Alejandro Toledo busca una vez más llegar a la presidencia con su partido Frente Esperanza, el que aún se encuentra en proceso de inscripción. Elizabeth María del Rosario León y Carlos Cuaresma Sanchez integran la primera y segunda vicepresidencia, respectivamente."
+        link:"No registra web",
+        bio:"El exministro de Alejandro Toledo busca una vez más llegar a la presidencia con su partido Frente Esperanza, el que aún se encuentra en proceso de inscripción. Elizabeth María del Rosario León y Carlos Cuaresma Sanchez postulan a la primera y segunda vicepresidencia, respectivamente."
     },
 
     candidato23 = {
@@ -272,7 +272,7 @@ var canDatos = [
         edad:"60 Años",
         profesion:"Abogado",
         web:"",
-        link:"No registra",
-        bio:"El partido Contigo eligió a Pedro Angulo con 28 votos de delegados. En la misma fórmula, Casimira Mujica va en la primera vicepresidencia y Alexander Von Ehren como sedundo vicepresidente. Máximo San Román renunció a su precandidatura."
+        link:"No registra web",
+        bio:"El partido Contigo eligió a Pedro Angulo con 28 votos de delegados. En la misma fórmula, Casimira Mujica va en la primera vicepresidencia y Alexander Von Ehren como segundo vicepresidente. Máximo San Román renunció a su precandidatura."
     },
 ]

@@ -16,8 +16,8 @@ header .cabezal .buscador ul li.compartir { position: absolute; top:10px; right:
 header li.compartir a.facebook {float:left;text-decoration:none;display:block;width:24px;height:24px;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat 0 -36px transparent;margin-right:10px;}
 header li.compartir a.twitter {float:left;text-decoration:none;display:block;width:24px;height:24px;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat -34px -36px transparent;margin-right:10px;}
 header li.compartir a.google {float:left;text-decoration:none;display:block;width:24px;height:24px;background:url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat -67px -36px transparent;}
-header nav#troncal ul.navSecciones {border-top: 1px solid #DADADA;margin-left:20px;padding-top:3px;}   
-     
+header nav#troncal ul.navSecciones {border-top: 1px solid #DADADA;margin-left:20px;padding-top:3px;}
+
 #troncal {max-width:988px; min-height:26px;margin:0px auto; padding-bottom:10px; z-index:200;background:#F3F3F3;border-left:1px solid #DADADA;border-right:1px solid #DADADA;position:relative;}
 #troncal ul li a:hover {color:#2b90b7;text-decoration:none;}
 #troncal li.principalesTop {background: url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat right -68px transparent;height:20px;text-align:center;float:left;font:normal 14px/30px 'TheSansSemi', 'Arial';}
@@ -27,8 +27,8 @@ header nav#troncal ul.navSecciones {border-top: 1px solid #DADADA;margin-left:20
 #troncal li.edicion-impresa .accesoSeccion {background-position:136px -67px;}
 #troncal li.guia-salidas {background: none;}
 #troncal li.guia-salidas .accesoSeccion {color:#278c8c;background: url("http://especiales.lanacion.com.ar/base-cabezal/imgs/lanacioncom.png") no-repeat -100px -92px;padding-left:38px;padding-right:25px;}
- 
-header .cierre {line-height:0px;height:5px;background-color:#32A9D3;width:100%; max-width:990px; margin:auto;}       
+
+header .cierre {line-height:0px;height:5px;background-color:#32A9D3;width:100%; max-width:990px; margin:auto;}
 
 /* -------------------- */
 
@@ -50,7 +50,7 @@ div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.
    background: #fff;
    /* Skew */
    /*-webkit-transform: skew(-15deg);
-   -moz-transform: skew(-15deg); 
+   -moz-transform: skew(-15deg);
    -o-transform: skew(-15deg);
    transform: skew(-15deg);*/
    /*border-right:2px solid #e7e7e7;
@@ -81,7 +81,7 @@ div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.
    left:0;
 	background-repeat: no-repeat;
    /*-webkit-transform: skew(+15deg);
-   -moz-transform: skew(+15deg); 
+   -moz-transform: skew(+15deg);
    -o-transform: skew(+15deg);
    transform: skew(+15deg);*/
    opacity: 0.5;
@@ -102,7 +102,7 @@ div.contenedor div.contenidos div.cajaFixed{
    height: 45px;
    padding: 10px;
    background-color:#fff;
-   position:fixed; 
+   position:fixed;
    top:0px;
    z-index: 900;
    display: none;
@@ -166,7 +166,7 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card{
            -o-transform-style: preserve-3d;
               transform-style: preserve-3d;
 
-   
+
    display: none;
 }
 
@@ -203,7 +203,7 @@ div.contenedor div.contenidos div.tarjetas-container div.sincard div.seleccione{
 div.contenedor div.contenidos div.tarjetas-container div.sincard div.mas{
    width: 90px;
    height: 90px;
-   background-image:url("../img/tarjeta-sprite.png"); 
+   background-image:url("../img/tarjeta-sprite.png");
    background-position: -20px -115px;
    position: absolute;
    top:40%;
@@ -216,7 +216,7 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.flipped  {
          -moz-transform: rotateY( 180deg );
            -o-transform: rotateY( 180deg );
               transform: rotateY( 180deg );
-     
+
 }
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card{
@@ -286,7 +286,7 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras{
    width:100%;
-   height:315px;
+   height:245px;
    position: absolute;
    top:0px;
    border-radius:5px;
@@ -304,33 +304,32 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
    width: 90%;
-   height: 25px;
+   height: 20px;
    background-image:url(../img/tarjeta-sprite.png);
    background-position: -73px -77px;
    background-repeat:no-repeat;
    padding-left:25px;
    line-height: 1.5;
-   margin: 0px 10px;
+   margin: 0px 23px;
    margin-bottom:5px;
 }
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio{
    width: 90%;
-   height: 230px;
+   height: 180px;
    background: #fff;
    border:1px solid #ccc;
-   margin: 0px 10px;
-   margin-bottom:0px;
+   margin: auto;
 }
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad,
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.profesion,
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.web,
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.texto{
-   padding: 5px 10px 5px 10px;
+   padding: 2px 5px 2px 5px;
 }
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad{
-   margin-top:5px;
+   margin-top:0px;
 }
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.edad span,
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.profesion  span,
@@ -339,11 +338,19 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
 }
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.texto{
-   width: 85%;
-   height: 130px;
+   height: 142px;
    line-height: 1.4;
    overflow: auto;
    margin: 0px;
+}
+
+::-webkit-scrollbar {
+   width: 1px;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio div.web{
+   font-size: 10px;
+   overflow: hidden;
 }
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.nom,
@@ -372,10 +379,15 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
    position: absolute;
    top:0px;
    right:0px;
-   background-image:url("../img/tarjeta-sprite.png"); 
+   background-image:url("../img/tarjeta-sprite.png");
    background-position: -14px -5px;
    cursor:pointer;
    z-index:1500;
+}
+
+div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom {
+   font-size: 16px;
+   padding: 10px 0 5px 25px;
 }
 
 div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.flipon{
@@ -506,7 +518,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
    header .interna .logo a.ln {background-size: 70%; height:15px}
 
    header nav#troncal ul.navSecciones {margin-left:5px; height: 35px;}
-   header nav#troncal ul.navSecciones li {width:16%; font-size: 12px; line-height: 1.3; text-align: center; float:left; margin-top: 7px;} 
+   header nav#troncal ul.navSecciones li {width:16%; font-size: 12px; line-height: 1.3; text-align: center; float:left; margin-top: 7px;}
    header nav#troncal li .accesoSeccion {padding:0 20px;   }
    header nav#troncal li#unalinea {line-height: 2;   }
    header nav#troncal li.guia-salidas .accesoSeccion {width:50%;}
@@ -549,7 +561,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
       width: 97%;
    }
 
-  
+
 
    /*div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.sincard,
    div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card,
@@ -590,7 +602,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
       height: 295px;
    }*/
 
-   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.nom, 
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.frente div.nom,
    div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.nom{
       /*width: 65%;*/
       z-index:1500;
@@ -607,10 +619,10 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
      display: none;
    }
 
-   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
+   /*div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.twitter{
       margin: 55px 10px;
       margin-bottom: 10px;
-   }
+   }*/
 
    div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras div.bio{
       height: 195px;
@@ -628,7 +640,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
    footer {width:100%; height:110px; margin:auto;border-top:1px solid #dadada;}
 
 
-   
+
 } /* fin 780 */
 
 @media only screen and (max-width: 600px) {
@@ -666,7 +678,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
 
    #contenedor {padding-left: 5px; padding-right: 5px;}
 
-   
+
 
    /* FICHAS */
 
@@ -678,8 +690,8 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
       /*width: 18.9%;
       height: 100px;*/
       border-bottom: 1px solid #e7e7e7;
-      -webkit-transform: skew(0deg); 
-      -moz-transform: skew(0deg); 
+      -webkit-transform: skew(0deg);
+      -moz-transform: skew(0deg);
       -o-transform: skew(0deg);
       transform: skew(0deg);
       width: 14vw;
@@ -688,8 +700,8 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
 
    div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha img{
       /*top: -10px;*/
-      -webkit-transform: skew(0deg); 
-      -moz-transform: skew(0deg); 
+      -webkit-transform: skew(0deg);
+      -moz-transform: skew(0deg);
       -o-transform: skew(0deg);
       transform: skew(0deg);
       width: 14vw;
@@ -765,7 +777,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
     border: 1px solid #ddd;
    }*/
 
-   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras, 
+   div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.atras,
    div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure.adelante{
       height: 210px;
    }
@@ -835,7 +847,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
       left: 0%;
       height: 40px;
    }
-   
+
 
    /* FICHAS */
 
@@ -843,8 +855,8 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
       /*width: 18.9%;
       height: 70px;*/
       border-bottom: 1px solid #e7e7e7;
-      -webkit-transform: skew(0deg); 
-      -moz-transform: skew(0deg); 
+      -webkit-transform: skew(0deg);
+      -moz-transform: skew(0deg);
       -o-transform: skew(0deg);
       transform: skew(0deg);
    }
@@ -891,7 +903,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
    div.contenedor div.contenidos div.tarjetas-container div.tarjeta#tarj4,  div.contenedor div.contenidos div.tarjetas-container div.tarjeta#tarj5{
       left: 17%;
    }
-   /* compartir */ 
+   /* compartir */
 
    #creditos-btn, a#descargar, a#codigo-fuente {
       margin-left: 5px;
@@ -932,7 +944,7 @@ footer .copy span.textoCopy {float:left;display:block;width:324px;height:22px;}
    }
 
    footer .copy b{
-      background-image:none; 
+      background-image:none;
       margin-left: 0px;
 
    }
