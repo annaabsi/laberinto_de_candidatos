@@ -6,7 +6,7 @@ body {
 }
 
 div.contenedor {
-	height:auto; 
+	height:auto;
 	width: 95%;
 	max-width: 960px;
 	margin: 0 auto;
@@ -19,23 +19,23 @@ div.contenedor {
 
 
 h1{
-	width:90%; 
-	font-family:  'TheSans', sans-serif; 
+	width:90%;
+	font-family:  'TheSans', sans-serif;
 	font-size: 20px;
-	color:#000; 
+	color:#000;
 	margin:20px 10px 0;
-	float:left;  
+	float:left;
 	font-weight: bold;
 }
 
 
 h2, h3{
-	width:90%; 
-	font-family:Arial, Helvetica, sans-serif; 
+	width:90%;
+	font-family:Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: black;
-	margin:10px 10px; 
-	float:left; 
+	margin:10px 10px;
+	float:left;
 	font-weight:100;
 	margin-bottom: 10px;
 }
@@ -44,29 +44,30 @@ h2, h3{
 /*--------- CONTENIDOS --------*/
 
 div.contenedor div.contenidos{
-	width:100%; 
-	height:auto; 
+	width:100%;
+	height:auto;
 	margin-bottom:50px;
-	position:relative; 
-	overflow: hidden; 
+	position:relative;
+	overflow: hidden;
+	margin-top: 100px;
 }
 
 div.contenedor div.contenidos div.slider-container{
-	width:100%; 
+	width:100%;
 	height:300px;
-	position:relative; 
+	position:relative;
 	overflow: hidden;
 	margin-top: 10px;
 }
 
 div.contenedor div.contenidos div.slider-container div.menos {
-	width:17px; 
-	height:192px; 
-	cursor:pointer;  
-	background:#14a1d7; color:#fff; 
-	font-family:Arial, Helvetica, sans-serif; 
-	text-align:center; line-height:11; 
-	border:1px solid #ccc; 
+	width:17px;
+	height:192px;
+	cursor:pointer;
+	background:#14a1d7; color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center; line-height:11;
+	border:1px solid #ccc;
 	position:absolute; top:0px; left:0px;
 	background-image: url('../img/arrows-slider.png');
 	background-position: right center;
@@ -78,11 +79,11 @@ div.contenedor div.contenidos div.slider-container div.menos:hover{
 }
 
 div.contenedor div.contenidos div.slider-container div.mas{
-	height:234px; 
-	cursor:pointer;  
+	height:234px;
+	cursor:pointer;
 	background:#14a1d7; color:#fff;
-	font-family:Arial, Helvetica, sans-serif; 
-	text-align:center; line-height:11; border:1px solid #ccc; 
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center; line-height:11; border:1px solid #ccc;
 	position:absolute; top:0px; right:0px;
 	background-image: url('../img/arrows-slider.png');
 	background-position: left center;
@@ -96,24 +97,24 @@ div.contenedor div.contenidos div.slider-container div.mas:hover{
 div.contenedor div.contenidos div.slider-container div.candidatos{
 	width:600px;
 	height:290px;
-	position:absolute; 
+	position:absolute;
 	top:0px;
 	overflow: hidden;
 }
 
 div.contenedor div.contenidos div.slider-container div.candidatos div.slide {
-	height:234px; 
-	position:absolute; 
-	top:0px; 
+	height:234px;
+	position:absolute;
+	top:0px;
 	left:0px;
 }
 
 div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha{
-	width:62px; 
-	height:62px; 
+	width:62px;
+	height:62px;
 	float:left;
-	font-family:Arial, Helvetica, sans-serif; 
-	font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
 	color:#000;
 	border:1px solid #ddd;
 	cursor: pointer;
@@ -128,13 +129,13 @@ div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.
 }
 
 div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha div.selection{
-	width:100%; 
+	width:100%;
 	height:115px;
 	position: absolute;
 }
 
 div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha div.check{
-	width:13px; 
+	width:13px;
 	height:13px;
 	position: absolute;
 	bottom:2px;
@@ -169,7 +170,7 @@ div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.
 }
 
 div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.selected div.selection {
-	width:100%; 
+	width:100%;
 	height:115px;
 	/*border-top:8px solid;*/
 }
@@ -205,11 +206,11 @@ div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.
 /*--------- SELECTED --------*/
 
 div.contenedor div.contenidos div.selection-container {
-	width:100%; 
+	width:100%;
 	height:85px;
 	margin-top: 10px;
 	display:none;
-	
+
 }
 
 div.contenedor div.contenidos div.selection-container h3 {
@@ -224,15 +225,15 @@ div.contenedor div.contenidos div.selection-container h3 {
 
 div.contenedor div.contenidos div.selection-container div.selected-candidatos {
 	width:auto;
-	float: left; 
+	float: left;
 	height:200px;
 }
 
 div.contenedor div.contenidos div.selection-container div.ficha-selected {
-	width:150px; 
+	width:150px;
 	float:left;
-	font-family:Arial, Helvetica, sans-serif; 
-	font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
 	color:#000;
 	cursor: pointer;
 	text-align: center;
@@ -245,7 +246,7 @@ div.contenedor div.contenidos div.selection-container img {
 }
 
 div.contenedor div.contenidos div.selection-container div.ficha-selected .remove{
-	width:100px; 
+	width:100px;
 	height:100px;
 	position: relative;
 	background-color: blue;
@@ -255,7 +256,7 @@ div.contenedor div.contenidos div.selection-container div.ficha-selected .remove
 }
 
 div.contenedor div.contenidos div.selection-container div.ficha-selected .crux{
-	width:15px; 
+	width:15px;
 	height:15px;
 	position: absolute;
 	right: 0px;
@@ -291,7 +292,7 @@ div.contenedor div.contenidos div.selection-container div.ficha-selected p{
 
 /* ------------------- */
 div.contenedor div.contenidos div#slider-control{
-	width:100% !important; 
+	width:100% !important;
 	height:17px;
 	background-color: #32A9D3;
 	border: 1px solid #32A9D3;
@@ -312,19 +313,19 @@ div.contenedor div.contenidos div#slider-control span#slider-control-label{
 
 div.contenedor div.contenidos div#slider-control span.slider-control-text{
 	float: left;
-	font-family:  'TheSans', sans-serif; 
+	font-family:  'TheSans', sans-serif;
 	font-size:14px;
 	font-weight: bold;
 }
 
 div.contenedor div.contenidos div#slider-control span.text-mostrar{
 	display: none;
-	height:17px; 
+	height:17px;
 }
 
 div.contenedor div.contenidos div#slider-control span.text-ocultar{
 	display: inline-block;
-	height:17px; 
+	height:17px;
 }
 
 div.contenedor div.contenidos div#slider-control.mostrar span.text-mostrar{
@@ -336,7 +337,7 @@ div.contenedor div.contenidos div#slider-control.mostrar span.text-ocultar{
 }
 
 div.contenedor div.contenidos div#slider-control span.slider-control-arrow{
-	height:17px; 
+	height:17px;
 	background-image: url('../img/arrows-slider-v.png');
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -376,7 +377,7 @@ div.contenedor div.contenidos div.selection-container .action-btn {
 	text-transform: uppercase;
 	padding-top: 11px;
 	text-decoration: none;
-	font-family:  'TheSans', sans-serif; 
+	font-family:  'TheSans', sans-serif;
 	font-size:14px;
 	font-weight: bold;
 	height: 23px;
@@ -402,7 +403,7 @@ div.contenedor div.contenidos div.select-container .select2-container .select2-s
 	background: none;
 	-webkit-box-shadow:none;
 	box-shadow: none;
-	margin-top: 5px;	
+	margin-top: 5px;
 }
 
 div.contenedor div.contenidos div.select-container .select2-container .selected-reference {
@@ -432,8 +433,8 @@ div.contenedor div.contenidos div.select-container .select2-container .white-bg 
 	margin: 5px 0 !important;
 }
 
-.select2-results .select2-no-results, 
-.select2-results .select2-searching, 
+.select2-results .select2-no-results,
+.select2-results .select2-searching,
 .select2-results .select2-selection-limit {
 	color: #000 !important;
 	font-size: 12px !important;
@@ -453,13 +454,13 @@ div.contenedor div.contenidos div.select-container .select2-container .white-bg 
 }
 
 .qtip-recorrido .nombre-tooltip {
-	font-family:  'TheSans', sans-serif; 
+	font-family:  'TheSans', sans-serif;
 	font-size:12px;
 	font-weight: bold;
 }
 
 .qtip-recorrido .partido-tooltip {
-	font-family:  'TheSansSemi', sans-serif; 
+	font-family:  'TheSansSemi', sans-serif;
 	font-size:11px;
 	font-weight: bold;
 	margin-top: 5px;
@@ -504,7 +505,7 @@ div.contenedor div.contenidos div.select-container .select2-container .white-bg 
 
 .qtip-recorrido .link-tooltip a {
 	color: #FFF;
-	font-family:  'TheSans', sans-serif; 
+	font-family:  'TheSans', sans-serif;
 	font-size:11px;
 	font-weight: bolder;
 	color: #FFF !important;
@@ -533,7 +534,7 @@ div.contenedor div.contenidos div.select-container .select2-container .white-bg 
 .qtip-partido .qtip-titlebar,
 .qtip-candidato .qtip-titlebar{
 	background-color: #000 !important;
-	font-family:  'TheSans', sans-serif; 
+	font-family:  'TheSans', sans-serif;
 	font-size:12px;
 	font-weight: bold;
 }
@@ -658,7 +659,7 @@ circle.participacion-inactivo {
 }
 
 circle.participacion-media{
-	
+
 }
 
 circle.participacion:hover {
@@ -791,7 +792,7 @@ div.contenedor p.reference-white {
 }
 
 .label-reference {
-	font-family:  'TheSans', sans-serif; 
+	font-family:  'TheSans', sans-serif;
 	font-size: 13px;
 }
 
@@ -855,8 +856,8 @@ div.contenedor p.reference-white {
 	background-position: 15px 36px;
 }
 
-a#descargar, 
-a#codigo-fuente {	
+a#descargar,
+a#codigo-fuente {
 	background: url('../img/descarga.png') 5px -2px no-repeat;
 	padding: 10px 10px 7px 28px;
 	display: inline-block;
@@ -869,7 +870,7 @@ a#codigo-fuente {
 	border-radius:3px;
 }
 
-a#codigo-fuente {	
+a#codigo-fuente {
 	background: url('../img/github.png') 5px 7px no-repeat;
 }
 
