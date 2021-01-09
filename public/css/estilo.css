@@ -49,7 +49,7 @@ div.contenedor div.contenidos{
 	margin-bottom:50px;
 	position:relative;
 	overflow: hidden;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 div.contenedor div.contenidos div.slider-container{
@@ -904,4 +904,10 @@ a#codigo-fuente:hover{
 
 .x.axis path.domain, .x.axis2 path.domain {
 	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	div.contenedor div.contenidos{
+		margin-top: 100px;
+	}
 }
