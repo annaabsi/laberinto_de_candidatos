@@ -13,30 +13,6 @@ var canDatos = [
     },
 
     candidato2 = {
-        nombre:"Nidia Vilchez",
-        partido:"APRA",
-        twitter:"@nidiavilchez",
-        foto:"img/cand-gr/vilchez.png",
-        edad:"54 Años",
-        profesion:"Contadora",
-        web:"",
-        link:"No registra web",
-        bio:"La excongresista ganó los comicios internos en el Apra. Su plancha presidencial la integran el ingeniero Iván Hidalgo Romero y la regidora provincial de Trujillo Olga Cribilleros, en la primera y segunda vicepresidencia, respectivamente."
-    },
-
-    candidato3 = {
-        nombre:"Fernando Cillóniz",
-        partido:"Todos por el Perú",
-        twitter:"@CillonizOficial",
-        foto:"img/cand-gr/cilloniz.png",
-        edad:"70 Años",
-        profesion:"Ingeniero",
-        web:"http://www.cilloniz.pe/",
-        link:"http://www.cilloniz.pe/",
-        bio:"El empresario y exgobernador de Ica resultó elegido como candidato presidencial en Todos por el Perú, luego que Pedro Cateriano declinara su postulación. Su lista está conformada por Blanca Wong Ronceros como primera vicepresidenta y Jaime Freundt López como segundo vicepresidente."
-    },
-
-    candidato4 = {
         nombre:"Ciro Gálvez Herrera",
         partido:"Renacimiento Andino",
         twitter:"No registra",
@@ -48,7 +24,7 @@ var canDatos = [
         bio:"El Renacimiento Unido Nacional (RUNA) designó a su líder Ciro Gálvez Herrera como el único candidato presidencial. Estará acompañado por Sonia García Osores en la primera vicepresidencia y Alejandro Zolla en la segunda vicepresidencia."
     },
 
-    candidato5 = {
+    candidato3 = {
         nombre:"Julio Guzmán",
         partido:"Partido Morado",
         twitter:"@julioguzmanperu",
@@ -60,7 +36,7 @@ var canDatos = [
         bio:"Julio Guzmán ganó las elecciones internas en el Partido Morado, del que es fundador. El economista estará acompañado por Flor Pablo Medina, exministra de Educación, como primera vicepresidenta. Anunciaron que Francisco Sagasti no postulará para la segunda presidencia, luego de haber asumido el máximo cargo del país."
     },
 
-    candidato6 = {
+    candidato4 = {
         nombre:"José Vega",
         partido:"Unión por el Perú",
         twitter:"@JoseVegaUPP",
@@ -72,7 +48,7 @@ var canDatos = [
         bio:"El congresista de Unión por el Perú, cuya bancada promovió la vacancia de Martín Vizcarra, es el candidato para la presidencia por este mismo partido. Lo acompañan Haydée Ríos en la primera vicepresidencia y Daniel Barragán en la segunda vicepresidencia."
     },
 
-    candidato7 = {
+    candidato5 = {
         nombre:"Alberto Beingolea",
         partido:"PPC",
         twitter:"No registra",
@@ -84,7 +60,7 @@ var canDatos = [
         bio:"El excongresista y excandidato a la alcaldía de Lima es quien representará al Partido Popular Cristiano en las elecciones 2021. En su lista lo acompañan Lucía del Pilar Ledesma como primera vicepresidenta y David Vera Trujillo en la segunda vicepresidencia."
     },
 
-    candidato8 = {
+    candidato6 = {
         nombre:"Andrés Alcántara",
         partido:"Democracia Directa",
         twitter:"@aaap_democracia",
@@ -96,7 +72,7 @@ var canDatos = [
         bio:"Andrés Alcántara buscará llegar por primera vez a la Presidencia con su partido Democracia Directa, anteriormente apuntó a la vicepresidencia y al Congreso sin éxito. Tiene en su plancha a Elena Ascarza y a Javier Espinoza."
     },
 
-    candidato9 = {
+    candidato7 = {
         nombre:"César Acuña",
         partido:"Alianza para el Progreso",
         twitter:"@CesarAcunaP",
@@ -108,7 +84,7 @@ var canDatos = [
         bio:"El fundador de Alianza para el Progreso intentará llegar al poder por segunda vez. Tiene a la congresista Carmen Omonte como primera vicepresidenta y el exlegislador Luis Iberico como segundo vicepresidente."
     },
 
-    candidato10 = {
+    candidato8 = {
         nombre:"Daniel Salaverry",
         partido:"Somos Perú",
         twitter:"@dsalaverryv",
@@ -120,7 +96,7 @@ var canDatos = [
         bio:"El exlegislador Daniel Salaverry postulará por primera vez a la Presidencia. Esta vez representa al partido Somos Perú. En su fórmula tiene a Matilde Fernández y Jorge Pérez, en la primera y segunda vicepresidencia. Una de sus principales fichas para el Congreso es el exmandatario Martín Vizcarra."
     },
 
-    candidato11 = {
+    candidato9 = {
         nombre:"Daniel Urresti",
         partido:"Podemos Perú",
         twitter:"@DanielUrresti1",
@@ -132,19 +108,7 @@ var canDatos = [
         bio:"El parlamentario Daniel Urresti buscará llegar al poder, esta vez con el partido Podemos Perú. En su fórmula presidencial está la congresista María Teresa Cabrera como primera vicepresidenta y a Wilbert Portugal como segundo vicepresidente."
     },
 
-    candidato12 = {
-        nombre:"Francisco Diez Canseco",
-        partido:"Perú Nación",
-        twitter:"@panchoperunacio",
-        foto:"img/cand-gr/diezcanseco.png",
-        edad:"74 Años",
-        profesion:"Abogado",
-        web:"",
-        link:"No registra web",
-        bio:"El fundador de Perú Nación intentará llegar a la presidencia una vez más con su partido político. En su fórmula lo acompañan Nancy Cáceres y Manuel Salazar en la primera y segunda vicepresidencia, respectivamente."
-    },
-
-    candidato13 = {
+    candidato10 = {
         nombre:"George Forsyth",
         partido:"Restauración Nacional",
         twitter:"@George_Forsyth",
@@ -156,7 +120,7 @@ var canDatos = [
         bio:"Buscará llegar al poder por primera vez luego de renunciar a la alcaldía de La Victoria tras menos de dos años de gestión. Postula a Ana Patricia Arévalo como primera vicepresidenta y a Jorge Chávez Álvarez como segundo vicepresidente."
     },
 
-    candidato14 = {
+    candidato11 = {
         nombre:"Hernando de Soto",
         partido:"Avanza País",
         twitter:"@HDeSotoPeru",
@@ -168,7 +132,7 @@ var canDatos = [
         bio:"El economista Hernando de Soto es el candidato presidencial por Avanza País. Tiene a Corinne Flores, jefa de la Cámara de Comercio e Industria de Tacna, como primera vicepresidenta; y en la segunda vicepresidencia a Jaime Salomón, quien fue viceministro de Agricultura durante el mandato de PPK."
     },
 
-    candidato15 = {
+    candidato12 = {
         nombre:"Keiko Fujimori",
         partido:"Fuerza Popular",
         twitter:"@KeikoFujimori",
@@ -180,7 +144,7 @@ var canDatos = [
         bio:"La lideresa de Fuerza Popular, Keiko Fujimori, intentará por tercera vez llegar a la Presidencia. Tendrá como primer vicepresidente al excongresista Luis Galarreta y como segunda vicepresidenta a Patricia Juárez, exfuncionaria de Luis Castañeda Lossio."
     },
 
-    candidato16 = {
+    candidato13 = {
         nombre:"Marco Arana",
         partido:"Frente Amplio",
         twitter:"@vozdelatierra",
@@ -192,7 +156,7 @@ var canDatos = [
         bio:"El líder del Frente Amplio fue elegido como candidato presidencial con poco respaldo de los militantes. Tiene en su lista a Leyla Berrocal Florez y Magno Ortega Quispe como primer y segundo vicepresidentes, respectivamente."
     },
 
-    candidato17 = {
+    candidato14 = {
         nombre:"Ollanta Humala",
         partido:"Partido Nacionalista",
         twitter:"@Ollanta_HumalaT",
@@ -204,7 +168,7 @@ var canDatos = [
         bio:"El expresidente de la República decidió postular una vez más por el Partido Nacionalista, con el que alcanzó el máximo cargo público en el 2011. Su fórmula está conformada por Ana María Salinas como primera vicepresidenta y Alberto Otárola como segundo vicepresidente."
     },
 
-    candidato18 = {
+    candidato15 = {
         nombre:"Pedro Castillo",
         partido:"Perú Libre",
         twitter:"No registra",
@@ -216,7 +180,7 @@ var canDatos = [
         bio:"El exdirigente del Sutep resultó elegido como candidato presidencial por el partido Perú Libre. En su plancha tiene a la abogada Dina Boluarte como candidata a la primera vicepresidencia y a Waldemar Cerrón, el hermano del sentenciado Vladimir Cerrón, como candidato a segundo vicepresidente."
     },
 
-    candidato19 = {
+    candidato16 = {
         nombre:"Rafael López Aliaga",
         partido:"Solidaridad Nacional",
         twitter:"@rlopezaliaga1",
@@ -228,7 +192,7 @@ var canDatos = [
         bio:"El ingeniero es el candidato presidencial de Renovación Popular, ex Solidaridad Nacional, partido fundado por Luis Castañeda Lossio. Su plancha la conforman Neldy Mendoza Flores y el general Jorge Montoya."
     },
 
-    candidato20 = {
+    candidato17= {
         nombre:"Rafael Santos",
         partido:"Perú Patria Segura",
         twitter:"@rafaelsantosn",
@@ -240,7 +204,7 @@ var canDatos = [
         bio:"El exalcalde de Pueblo Libre, quien también postuló al Congreso 2020, es el candidato presidencial por Perú Patria Segura. Está acompañado de Victoria Paredes y el excongresista Renzo Reggiardo para la primera y segunda vicepresidencia, respectivamente."
     },
 
-     candidato21 = {
+     candidato18 = {
         nombre:"Verónika Mendoza",
         partido:"Juntos por el Perú",
         twitter:"@Vero_Mendoza_F",
@@ -250,29 +214,5 @@ var canDatos = [
         web:"",
         link:"No registra web",
         bio:"Juntos por el Perú presentó a Verónika Mendoza como su candidata presidencial. La lideresa del movimiento Nuevo Perú incluyó en su lista a José De Echave, exviceministro del Ministerio del Ambiente durante el 2011, y a la abogada Luzmila Ayay en la primera y segunda vicepresidencia, respectivamente."
-    },
-
-    candidato22 = {
-        nombre:"Fernando Olivera",
-        partido:"Frente de la Esperanza 2021",
-        twitter:"@foliverav",
-        foto:"img/cand-gr/olivera.jpg",
-        edad:"62 Años",
-        profesion:"Administrador",
-        web:"",
-        link:"No registra web",
-        bio:"El exministro de Alejandro Toledo busca una vez más llegar a la presidencia con su partido Frente Esperanza, el que aún se encuentra en proceso de inscripción. Elizabeth María del Rosario León y Carlos Cuaresma Sanchez postulan a la primera y segunda vicepresidencia, respectivamente."
-    },
-
-    candidato23 = {
-        nombre:"Pedro Angulo",
-        partido:"Contigo",
-        twitter:"No registra",
-        foto:"img/cand-gr/angulo.jpg",
-        edad:"60 Años",
-        profesion:"Abogado",
-        web:"",
-        link:"No registra web",
-        bio:"El partido Contigo eligió a Pedro Angulo con 28 votos de delegados. En la misma fórmula, Casimira Mujica va en la primera vicepresidencia y Alexander Von Ehren como segundo vicepresidente. Máximo San Román renunció a su precandidatura."
     },
 ]

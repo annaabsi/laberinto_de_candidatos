@@ -526,7 +526,7 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
    #contenedor div.bot-candidatos div.btn div.foto{width: 135%; position: absolute; top: 0px; left: -5px; background-size: 100%}
 
    div.contenedor div.contenidos div.slider-container {
-       height: 30vw;
+       height: 22vw;
    }
    div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha{
       /*width: 10.7%;*/
@@ -663,7 +663,7 @@ div.contenedor div.contenidos div.tarjetas-container div.tarjeta div.card figure
    /* FICHAS */
 
    div.contenedor div.contenidos div.slider-container, div.contenedor div.contenidos div.slider-container div.candidatos {
-      height: 85vw;
+      height: 70vw;
    }
 
    div.contenedor div.contenidos div.slider-container div.candidatos div.slide div.ficha{
